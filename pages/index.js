@@ -187,7 +187,7 @@ export default function Home() {
                   <iframe className='p-3 responsive-iframe' loading="lazy"  src="https://www.youtube.com/embed/GBZBlU7Bsyc?autoplay=1"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
                 <Link href="/play">
-                  <a>
+                  {/* <a> */}
                     <motion.svg initial="rest" animate="rest" whileHover="play" whileTap="play"  xmlns="http://www.w3.org/2000/svg" width="100%" height="56.172" viewBox="0 0 508.124 66.172">
                       <g id="Component_11_3" data-name="Component 11 – 3" transform="translate(1.282 1)">
                         <g id="Group_1130" data-name="Group 1130">
@@ -203,7 +203,7 @@ export default function Home() {
                         </g>
                       </g>
                     </motion.svg>
-                  </a>
+                  {/* </a> */}
                 </Link>
               </div>
 
