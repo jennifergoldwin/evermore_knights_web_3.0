@@ -154,7 +154,7 @@ export default function Home() {
 
   return (
     <div >
-        <Script src="https://kit.fontawesome.com/242f1006be.js" crossorigin="anonymous"></Script>
+        <Script   src="https://kit.fontawesome.com/242f1006be.js" crossorigin="anonymous"></Script>
 
         <Head>
           <title>Evermore Knights</title>

@@ -72,7 +72,7 @@ export const Landing = () => {
                             <motion.path variants={hover_button_bg} fill="#fff" id="Path_2053" data-name="Path 2053" d="M252.12-117.4H697.769l23.09,35.171,7.13-8.625-7.13-9.14L698.3-64.189H252.12L229.559-99.995l-7.13,9.14,7.13,8.625Z" transform="translate(-222.43 122.881)" fillRule="evenodd"/>
                             </g>
                             <g id="Group_1129" data-name="Group 1129" transform="translate(751 -1827.449)">
-                            <motion.text variants={hover_button_text} id="PLAY_DEMO" data-name="DOWNLOAD TESTNET APK" transform="translate(-498 1869)" fill="#fff" fontSize="23" ><tspan x="-165.189" y="0">DOWNLOAD TESTNET APK</tspan></motion.text>
+                            <motion.text variants={hover_button_text} id="PLAY_DEMO" data-name="DOWNLOAD PRE-BETA APK" transform="translate(-498 1869)" fill="#fff" fontSize="23" ><tspan x="-165.189" y="0">DOWNLOAD PRE-BETA APK</tspan></motion.text>
                             <g id="Group_1128" data-name="Group 1128" transform="translate(-751 1827.449)" >
                                 <motion.path variants={hover_button_border} id="Path_2052-2" data-name="Path 2052" d="M246.292-120.2H698.083l20.511,32.086L698.083-56.026H246.292l-20.51-32.086Z" transform="translate(-219.216 120.198)" fill="none" stroke="#fff" strokeMiterlimit="10" strokeWidth="2" fillRule="evenodd"/>
                                 <motion.path variants={hover_button_border} id="Path_2053-2" data-name="Path 2053" d="M252.12-117.4H697.769l23.09,35.171,7.13-8.625-7.13-9.14L698.3-64.189H252.12L229.559-99.995l-7.13,9.14,7.13,8.625Z" transform="translate(-222.43 122.881)" fill="none" stroke="#fff" strokeMiterlimit="10" strokeWidth="2" fillRule="evenodd"/>
