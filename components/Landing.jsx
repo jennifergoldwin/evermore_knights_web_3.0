@@ -64,7 +64,7 @@ export const Landing = () => {
                         <button title="Coming Soon" className="btn-store"><img src="/assets/images/appstore.png"/></button>
                         <button title="Coming Soon" className="btn-store"><img src="/assets/images/googlestore.png" /></button>
                     </div>
-                    <a href="https://drive.google.com/file/d/1P3WLgqUY1Ztx_ICgfDorf_d_3sGmim5H/view?usp=sharing" target="_blank" rel="noreferrer" className='m-6'>
+                    <a href="https://drive.google.com/drive/u/1/folders/1XcNaeluJMWs8oJxoo4-D_8gvgkwUcHw-" target="_blank" rel="noreferrer" className='m-6'>
                         <motion.svg initial="rest" animate="rest" whileHover="play" whileTap="play"  xmlns="http://www.w3.org/2000/svg" width="100%" height="56.172" viewBox="0 0 508.124 66.172">
                         <g id="Component_11_3" data-name="Component 11 – 3" transform="translate(1.282 1)">
                             <g id="Group_1130" data-name="Group 1130">
