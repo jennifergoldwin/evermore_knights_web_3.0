@@ -309,7 +309,7 @@ export default function Home() {
                   <a href="https://creoengineofficial.medium.com/" target="_blank" rel="noreferrer" className="btn-footer">
                     <i className="fa-brands fa-medium"></i></a>
 
-                  <a href="https://www.instagram.com/evermoreknights.official/" rel="noreferrer" target="_blank" className="btn-footer">
+                  <a href="https://www.instagram.com/creoengine.official/" rel="noreferrer" target="_blank" className="btn-footer">
                     <i className="fa-brands fa-instagram fa-lg"></i></a>
                 </div>
 
