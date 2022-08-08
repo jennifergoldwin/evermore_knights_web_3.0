@@ -281,16 +281,16 @@ img{
     background-position: center;
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 768px) {
     .pre-register-info-wrapper{
         background-size: cover;
         background-position: center;
     }
     
 }
-@media screen and (min-width: 675px) {
+@media screen and (min-width: 768px) {
     .pre-register-info-wrapper{
-        background-size: 100vw 100%;
+        background-size: 100% 100%;
         background-position: center right;
     }  
 }

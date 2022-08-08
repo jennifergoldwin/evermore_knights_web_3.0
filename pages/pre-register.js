@@ -197,7 +197,7 @@ export default function PreRegister() {
           </div>
         </div>
 
-        <div className="w-full">
+        <div className="w-full pb-12">
           <div className="address-token-card flex-col md:flex-row">
             <div className="z-10">
               <img src="/assets/images/VN_Mamon 1.png" />
