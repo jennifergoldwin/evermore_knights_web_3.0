@@ -1,10 +1,263 @@
 
-
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
 .unityContainer{
     width: 1280px !important;
     height: 720px !important;
 }
+.address-token-card{
+    margin: 2rem;
+    position: relative;
+    align-items: center; 
+    width: fit-content; 
+    /* max-width: 475px;  */
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    margin: auto;
+}
+@media screen and (min-width:512px) {
+    .reward-wrapper-mobile{
+        display: none;
+    }
+    .reward-wrapper-desktop{
+        display: block;
+    }
+    
+}
+@media screen and (max-width:512px) {
+    .reward-wrapper-mobile{
+        display: block;
+    }
+    .reward-wrapper-desktop{
+        display: none;
+    }
+    .pre-register-landing-wrapper{
+        height: 60vh;
+        display: flex;
+    }
+    
+}
+.pre-progress-wrapper{
+    margin-bottom: 1.428571rem;
+    margin-top: 1.428571rem;
+    position: relative;
+}
+.pre-progress-wrapper.mob{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 1.428571rem;
+    margin-left: 1.428571rem;
+    position: relative;
+}
+.pre-progress-wrapper>.progress-bar {
+    background-color:#D9D9D9;
+    border: 0.6pt solid #707070;
+    height: 0.557143rem;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+}
+.pre-progress-wrapper>.progress-bar.mob{
+    height: 100%;
+    width: 0.557143rem;
+}
+.pre-progress-wrapper>.progress-bar>.inner {
+    background: linear-gradient(180deg, rgba(50,94,11,1) 0%, rgba(80,141,24,1) 17%, rgba(163,255,71,1) 100%);
+    height: inherit;
+    left: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transition: width 2s linear;
+    -o-transition: width 2s linear;
+    -moz-transition: width 2s linear;
+    transition: width 2s linear;
+    /* width: 0; */
+    z-index: 1;
+}
 
+.pre-progress-wrapper>.progress-bar.mob>.inner {
+    height: 50%;
+    width: inherit;
+    -webkit-transition: height 2s linear;
+    -o-transition: height 2s linear;
+    -moz-transition: height 2s linear;
+    transition: height 2s linear;
+}
+
+.pre-progress-wrapper>.progress-milepost {
+    left: 0;
+    margin-top: -0.857143rem;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 2;
+}
+.pre-progress-wrapper.mob>.progress-milepost {
+    left: 0;
+    margin-top: -0.97143rem;
+    margin-left: -0.595rem;
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: inherit;
+    z-index: 2;
+}
+.pre-progress-wrapper.mob>.progress-milepost>li:not(:first-child) {
+    margin-top: 1rem;
+}
+.pre-progress-wrapper.mob>.progress-milepost>li:not(:last-child) {
+    margin-right: 0;
+}
+.pre-progress-wrapper>.progress-milepost>li:not(:last-child) {
+    margin-right: 0.714286rem;
+}
+
+.pre-progress-wrapper>.progress-milepost>li {
+    position: relative;
+}
+
+.pre-progress-wrapper>.progress-milepost>li>.icon {
+    background-image: url("/assets/images/Group 2177.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 1.785714rem;
+    position: relative;
+    -webkit-transition: background-image .3s ease;
+    -o-transition: background-image .3s ease;
+    -moz-transition: background-image .3s ease;
+    transition: background-image .3s ease;
+    width: 1.785714rem;
+    z-index: 2;
+}
+/* .pre-progress-wrapper>.progress-milepost>li.active>.mask {
+    background-color: #50453e;
+} */
+
+/* .pre-progress-wrapper>.progress-milepost>li>.mask {
+    background-color: #484036;
+    height: 1.285714rem;
+    left: 50%;
+    margin-left: -0.642857rem;
+    position: absolute;
+    top: 0.214286rem;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+    width: 1.285714rem;
+    z-index: 1;
+} */
+/* .pre-progress-wrapper>.progress-milepost>li.active>.lighter {
+    opacity: 1;
+} */
+
+/* .pre-progress-wrapper>.progress-milepost>li>.lighter {
+    background-image: url("/assets/images/Group 2177.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -moz-background-size: contain;
+    background-size: contain;
+    bottom: -9.428571rem;
+    height: 8.928571rem;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition: opacity .5s ease;
+    -o-transition: opacity .5s ease;
+    -moz-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+    width: 9.642857rem;
+    z-index: 1;
+} */
+/*Mobile PreProgress*/
+.pre_content{
+    display: flex;
+    margin-top: 0.39rem;
+}
+.pre_progress{
+    margin-top: 0.04rem;
+    width: 0.08rem;
+    height: 7.03rem;
+    background-color: rgba(0,0,0,.6);
+    -webkit-box-shadow: 0 0 0.05rem 0 rgb(0 0 0 / 30%);
+    box-shadow: 0 0 .05rem 0rgba(0,0,0,.3);
+    position: relative;
+    border-radius: 0.08rem;
+}
+.pre_info{
+    margin-left: 0.3rem;
+}
+.pre_progress .progress-content{
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    left: 50%;
+    width: 50%;
+}
+.pre_progress .point:first-of-type {
+    top: 0.51rem;
+}
+.pre__progress .point:nth-of-type(2) {
+    top: 1.94rem;
+}
+.pre_progress .point {
+    position: absolute;
+    background-image: url("/assets/images/Group 2177.png");
+    width: 0.26rem;
+    height: 0.26rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.pre-register-form input{
+    padding-top: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    border: 1.5pt solid #E1C95D;
+    background-color:rgba(34, 34, 34,0.4);
+    color: white;
+}
+.pre-register-form input::placeholder, .pre-register-form input::-ms-input-placeholder, .pre-register-form input::-webkit-input-placeholder{
+    color: white;
+    text-overflow: ellipsis;
+    margin-left: 12rem;
+}
+
+.pre-register-form input:placeholder-shown{
+    text-overflow: ellipsis;
+}
+
+.pre-register-form button {
+    background: url(/assets/images/pre-register-btn-bg.png);
+    border: 1.5pt solid #E1C95D;
+    background-color: #066585;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 1rem;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    -moz-box-shadow: inset 0 -10px 15px -8px rgba(158,238,255,1);
+    -webkit-box-shadow: inset 0 -10px 15px -8px rgba(158,238,255,1);;
+    box-shadow: inset 0 -10px 15px -8px rgba(158,238,255,1);;
+}
 
 .landing-wrapper{
     position: relative;
@@ -12,6 +265,44 @@
     background-image: url(/assets/images/bg-section-one.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.pre-register-landing-wrapper{
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/assets/images/bg-pre-register.png");
+}
+
+.pre-register-info-wrapper{
+    background-image: url("/assets/images/bg-pre-register-info.png");
+    /* background-size: 100vw 100%; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 675px) {
+    .pre-register-info-wrapper{
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
+@media screen and (min-width: 675px) {
+    .pre-register-info-wrapper{
+        background-size: 100vw 100%;
+        background-position: center right;
+    }  
+}
+.total-user-border{
+    border: 2pt solid #E1C268;
+    box-shadow: 0px 10px 15px rgba(200,171,112,0.6), 0px -10px 15px rgba(200,171,112,0.6);
+    background: url(/assets/images/total-user-bg.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #003357;
+    width: fit-content;
 }
 
 .play-to-earn-wrapper{
@@ -105,6 +396,9 @@
     box-shadow: 0 5px 15px rgba(255, 255, 255, .4);
 }
 .nav-link:hover{
+    color: #E1C95D;
+}
+.text-active-link{
     color: #E1C95D;
 }
 .footer-left{

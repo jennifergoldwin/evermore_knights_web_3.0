@@ -1,14 +1,34 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { useRouter } from "next/router"
+import React, { useEffect, useState } from "react";
 
 export const Navbar = () => {
 
-  const [active, setActive] = useState(false);
+  const router = useRouter()
+  const [active, setActive] = useState(false)
+  const [activeLink, setActiveLink] = useState([
+    {idx: 0, status: false},
+    {idx: 1, status: false},
+    {idx: 2, status: false},
+    {idx: 3, status: false},
+  ])
   const handleClick = () => {
     setActive(!active);
   };
+
+  useEffect(()=>{
+    if (router.pathname==='/pre-register'){
+      handleActiveLink(0)
+    }
+  })
+
+  const handleActiveLink = (e) =>{
+    setActiveLink(activeLink.map(link=>
+      link.idx === parseInt(e) 
+      ? {...link, status: true} : {...link, status: false}
+    ))
+  }
 
   const hover_button_border = {
     rest: {
@@ -70,18 +90,23 @@ export const Navbar = () => {
               active ? '' : 'hidden'
             }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
             <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
+              <Link href="/pre-register">
+                <a onClick={()=>handleActiveLink(0)} className={`${activeLink[0].status ? 'text-active-link' : 'text-white'} nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center`}>
+                  <span>PRE-REGISTER</span>
+                </a>
+              </Link>
+
               <Link href="/play">
-                <a  className='nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center'>
+                <a onClick={()=>handleActiveLink(1)} className={`${activeLink[1].status ? 'text-active-link' : 'text-white'} nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center`}>
                   <span>PLAY DEMO</span>
                 </a>
               </Link>
               
-              
-              <a href="https://evermoreknights.gitbook.io/lores/" target="_blank" rel="noreferrer" className='nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center'>
+              <a onClick={()=>handleActiveLink(2)} href="https://evermoreknights.gitbook.io/lores/" target="_blank" rel="noreferrer" className={`${activeLink[2].status ? 'text-active-link' : 'text-white'} nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center`}>
                 <span>BLOG</span>
               </a>
               
-              <a href="https://tny.sh/EvermoreKnightsWhitepaper" target="_blank" rel="noreferrer" className='nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center'>
+              <a onClick={()=>handleActiveLink(3)} href="https://tny.sh/EvermoreKnightsWhitepaper" target="_blank" rel="noreferrer" className={`${activeLink[3].status ? 'text-active-link' : 'text-white'} nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center`}>
                 <span>WHITEPAPER</span>
               </a>
 
