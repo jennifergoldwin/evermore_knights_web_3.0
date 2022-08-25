@@ -159,6 +159,7 @@ export default function Home() {
       <Head>
         <title>Evermore Knights</title>
         <link rel="icon" href="/logo-ek.ico"></link>
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
 
       {/* <Navbar /> */}
