@@ -90,11 +90,11 @@ export const Navbar = () => {
               active ? '' : 'hidden'
             }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
             <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
-              <Link href="/pre-register">
+              {/* <Link href="/pre-register">
                 <a onClick={()=>handleActiveLink(0)} className={`${activeLink[0].status ? 'text-active-link' : 'text-white'} nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center`}>
                   <span>PRE-REGISTER</span>
                 </a>
-              </Link>
+              </Link> */}
 
               <Link href="/play">
                 <a onClick={()=>handleActiveLink(1)} className={`${activeLink[1].status ? 'text-active-link' : 'text-white'} nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center`}>
