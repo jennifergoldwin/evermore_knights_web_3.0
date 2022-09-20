@@ -193,8 +193,7 @@ export default function Home() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <Link href="/play">
-                {/* <a> */}
+              {/* <Link href="/play">
                 <motion.svg
                   initial="rest"
                   animate="rest"
@@ -279,8 +278,7 @@ export default function Home() {
                     </g>
                   </g>
                 </motion.svg>
-                {/* </a> */}
-              </Link>
+              </Link> */}
             </div>
 
             <div className="inline-flex flex-col justify-center items-center w-full sm:w-3/5 md:w-3/5 lg:w-3/5 xl:w-3/5 ">

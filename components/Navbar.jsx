@@ -90,17 +90,17 @@ export const Navbar = () => {
               active ? '' : 'hidden'
             }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
             <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
-              {/* <Link href="/pre-register"> */}
+
                 <a href="https://creoengine.com/ekpre-registration" target="_blank" rel="noreferrer" onClick={()=>handleActiveLink(0)} className={`${activeLink[0].status ? 'text-active-link' : 'text-white'} nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center`}>
                   <span>PRE-REGISTER</span>
                 </a>
-              {/* </Link> */}
 
-              <Link href="/play">
+
+              {/* <Link href="/play">
                 <a onClick={()=>handleActiveLink(1)} className={`${activeLink[1].status ? 'text-active-link' : 'text-white'} nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center`}>
                   <span>PLAY DEMO</span>
                 </a>
-              </Link>
+              </Link> */}
               
               <a onClick={()=>handleActiveLink(2)} href="https://evermoreknights.gitbook.io/lores/" target="_blank" rel="noreferrer" className={`${activeLink[2].status ? 'text-active-link' : 'text-white'} nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center`}>
                 <span>BLOG</span>

@@ -22,9 +22,12 @@ export const Footer=()=>{
               <div className="w-full px-4 mt-7 lg:w-1/3 md:w-1/3 flex justify-center items-center text-center">
                 <ul className=" space-y-2 text-sm list-none">
                   <li>
-                    <Link href="/play">
+                  <a href="https://creoengine.com/ekpre-registration" target="_blank" rel="noreferrer" className='nav-link'>
+                  PRE-REGISTER
+                </a>
+                    {/* <Link href="/play">
                       <a className="nav-link">PLAY DEMO</a>
-                    </Link>
+                    </Link> */}
                     
                   </li>
                   <li>
