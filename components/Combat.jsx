@@ -107,7 +107,7 @@ export const Combat = () => {
                 <div className="mx-auto flex justify-center w-full lg:w-10/12 md:w-10/12 sm:w-full pb-8">
                     <motion.svg initial="rest" animate="rest" whileHover="play" whileTap="play" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"  viewBox="0 0 1508 928">
                         <defs>
-                            <clipPath id="clip-path">
+                            <clipPath id="clip-path-combat">
                             <rect id="Rectangle_136" data-name="Rectangle 136" width="1323" height="746" transform="translate(-5023.313 14487.104)" fill="#fff"/>
                             </clipPath>
                             <pattern id="pattern-combat" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1882 61">
@@ -167,17 +167,17 @@ export const Combat = () => {
                             <pattern id="pattern-combat-19" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 334 174">
                             <image width="334" height="174" xlinkHref="/assets/images/Component%2026%20-%202-image27.png"/>
                             </pattern>
-                            <linearGradient id="linear-gradient" x1="1.038" y1="-0.039" x2="0.455" y2="0.5" gradientUnits="objectBoundingBox">
-                            <stop offset="0" stopColor="#fff"/>
-                            <stop offset="1" stopColor="#434343"/>
+                            <linearGradient id="linear-gradient-combat" x1="1.038" y1="-0.039" x2="0.455" y2="0.5" gradientUnits="objectBoundingBox">
+                                <stop offset="0" stopColor="#fff"/>
+                                <stop offset="1" stopColor="#434343"/>
                             </linearGradient>
-                            <linearGradient id="linear-gradient-2" x1="1" y1="0" x2="0.281" y2="0.734" xlinkHref="#linear-gradient"/>
-                            <linearGradient id="linear-gradient-3" x1="-0.115" y1="1" x2="1" y2="0" xlinkHref="#linear-gradient"/>
-                            <linearGradient id="linear-gradient-4" x1="1" y1="0" x2="-0.259" y2="1.276" xlinkHref="#linear-gradient"/>
-                            <linearGradient id="linear-gradient-9" x1="1.038" y1="1.039" x2="0.455" y2="0.5" xlinkHref="#linear-gradient"/>
-                            <linearGradient id="linear-gradient-10" x1="1" y1="1" x2="0.281" y2="0.266" xlinkHref="#linear-gradient"/>
-                            <linearGradient id="linear-gradient-11" x1="-0.115" y1="0" x2="1" y2="1" xlinkHref="#linear-gradient"/>
-                            <linearGradient id="linear-gradient-12" x1="1" y1="1" x2="-0.259" y2="-0.276" xlinkHref="#linear-gradient"/>
+                            <linearGradient id="linear-gradient-combat-2" x1="1" y1="0" x2="0.281" y2="0.734" xlinkHref="#linear-gradient-combat"/>
+                            <linearGradient id="linear-gradient-combat-3" x1="-0.115" y1="1" x2="1" y2="0" xlinkHref="#linear-gradient-combat"/>
+                            <linearGradient id="linear-gradient-combat-4" x1="1" y1="0" x2="-0.259" y2="1.276" xlinkHref="#linear-gradient-combat"/>
+                            <linearGradient id="linear-gradient-combat-9" x1="1.038" y1="1.039" x2="0.455" y2="0.5" xlinkHref="#linear-gradient-combat"/>
+                            <linearGradient id="linear-gradient-combat-10" x1="1" y1="1" x2="0.281" y2="0.266" xlinkHref="#linear-gradient-combat"/>
+                            <linearGradient id="linear-gradient-combat-11" x1="-0.115" y1="0" x2="1" y2="1" xlinkHref="#linear-gradient-combat"/>
+                            <linearGradient id="linear-gradient-combat-12" x1="1" y1="1" x2="-0.259" y2="-0.276" xlinkHref="#linear-gradient-combat"/>
                         </defs>
                         <g id="Component_26_2" data-name="Component 26 – 2" transform="translate(13 33)">
                             <g id="Group_1717" data-name="Group 1717" transform="translate(41.385 32.137)">
@@ -186,7 +186,7 @@ export const Combat = () => {
                             </g>
                             <g id="Group_1739" data-name="Group 1739" transform="translate(-222 -2522)">
                             <rect id="Rectangle_142" data-name="Rectangle 142" width="1328" height="748" transform="translate(299 2579)" fill="#070707"/>
-                            <g id="Mask_Group_55" data-name="Mask Group 55" transform="translate(5322.313 -11910.104)" clipPath="url(#clip-path)">
+                            <g id="Mask_Group_55" data-name="Mask Group 55" transform="translate(5322.313 -11910.104)" clipPath="url(#clip-path-combat)">
                                 <rect id="Rectangle_141" data-name="Rectangle 141" width="1328" height="748" transform="translate(-5023.313 14492.104)" fill="#070707"/>
                                 <image id="BG" width="2455" height="945" transform="translate(-6138.313 14436.104)" xlinkHref="/assets/images/Component%2026%20-%202-image.png"/>
                                 <rect id="Layer_14" data-name="Layer 14" width="1280" height="41" transform="translate(-4232.313 15192.104)" fill="url(#pattern-combat)"/>
@@ -236,73 +236,73 @@ export const Combat = () => {
                             <g id="Group_1738" data-name="Group 1738" transform="translate(0 0.213)">
                                 <g id="Group_1733" data-name="Group 1733" transform="translate(1661.837 2071.484) rotate(90)">
                                 <g id="Group_1728" data-name="Group 1728" transform="translate(1163.303 -37.902)" style={{isolation: "isolate"}}>
-                                    <path id="Path_2086" data-name="Path 2086" d="M1260.906,14.457l.04,49.859,49.824,45.249V-35.4H1165.8l45.239,50.009Z" transform="translate(-1163.918 37.287)" fill="url(#linear-gradient)"/>
+                                    <path id="Path_2086" data-name="Path 2086" d="M1260.906,14.457l.04,49.859,49.824,45.249V-35.4H1165.8l45.239,50.009Z" transform="translate(-1163.918 37.287)" fill="url(#linear-gradient-combat)"/>
                                     <path id="Path_2087" data-name="Path 2087" d="M1310.156,110.837a1.88,1.88,0,0,1-1.268-.49L1259.064,65.1a1.886,1.886,0,0,1-.618-1.394l-.039-47.97-47.974.145h-.006a1.883,1.883,0,0,1-1.4-.621l-45.24-50.01a1.885,1.885,0,0,1-.325-2.029,1.886,1.886,0,0,1,1.723-1.121h144.967a1.885,1.885,0,0,1,1.885,1.885V108.951a1.885,1.885,0,0,1-1.885,1.885Zm-47.94-47.971,46.053,41.826V-34.131H1169.437L1211.262,12.1l49.023-.148h.006a1.885,1.885,0,0,1,1.885,1.884Z" transform="translate(-1163.303 37.902)" fill="#231f20"/>
                                 </g>
                                 <g id="Group_1729" data-name="Group 1729" transform="translate(1199.598 -12.135)" style={{isolation: "isolate"}}>
-                                    <path id="Path_2088" data-name="Path 2088" d="M1264.217,30.2l.025,31.438,31.416,18.1V-1.236h-81.729L1232.776,30.3Z" transform="translate(-1212.043 3.121)" fill="url(#linear-gradient-2)"/>
+                                    <path id="Path_2088" data-name="Path 2088" d="M1264.217,30.2l.025,31.438,31.416,18.1V-1.236h-81.729L1232.776,30.3Z" transform="translate(-1212.043 3.121)" fill="url(#linear-gradient-combat-2)"/>
                                     <path id="Path_2089" data-name="Path 2089" d="M1295.043,81.011a1.88,1.88,0,0,1-.941-.252l-31.415-18.1a1.884,1.884,0,0,1-.944-1.632l-.024-29.548-29.551.089h-.006a1.885,1.885,0,0,1-1.618-.919L1211.7-.883a1.887,1.887,0,0,1-.022-1.9,1.886,1.886,0,0,1,1.64-.955h81.729a1.885,1.885,0,0,1,1.885,1.885V79.125a1.885,1.885,0,0,1-1.885,1.885Zm-29.531-21.075,27.645,15.928V.036h-76.52l16.592,27.758L1263.6,27.7a2.02,2.02,0,0,1,1.336.55,1.887,1.887,0,0,1,.554,1.334Z" transform="translate(-1211.429 3.735)" fill="#231f20"/>
                                 </g>
                                 <g id="Group_1730" data-name="Group 1730" transform="translate(1220.983 24.666)" style={{isolation: "isolate"}}>
-                                    <rect id="Rectangle_140" data-name="Rectangle 140" width="25.126" height="25.126" transform="translate(26.258 26.257) rotate(-180)" fill="url(#linear-gradient-3)"/>
+                                    <rect id="Rectangle_140" data-name="Rectangle 140" width="25.126" height="25.126" transform="translate(26.258 26.257) rotate(-180)" fill="url(#linear-gradient-combat-3)"/>
                                     <path id="Path_2090" data-name="Path 2090" d="M1266.044,72.451h-25.127a1.131,1.131,0,0,1-1.131-1.131V46.193a1.131,1.131,0,0,1,1.131-1.131h25.127a1.131,1.131,0,0,1,1.131,1.131V71.32A1.131,1.131,0,0,1,1266.044,72.451Zm-24-2.262h22.865V47.324h-22.865Z" transform="translate(-1239.786 -45.062)" fill="#231f20"/>
                                 </g>
                                 <g id="Group_1731" data-name="Group 1731" transform="translate(1251.79 -11.451)" style={{isolation: "isolate"}}>
-                                    <path id="Path_2091" data-name="Path 2091" d="M1282.135,28.7l30.128-4.9V-1.329h-25.126Z" transform="translate(-1281.004 2.46)" fill="url(#linear-gradient-4)"/>
+                                    <path id="Path_2091" data-name="Path 2091" d="M1282.135,28.7l30.128-4.9V-1.329h-25.126Z" transform="translate(-1281.004 2.46)" fill="url(#linear-gradient-combat-4)"/>
                                     <path id="Path_2092" data-name="Path 2092" d="M1281.766,29.462a1.132,1.132,0,0,1-1.116-1.318l5-30.028a1.131,1.131,0,0,1,1.116-.945h25.125a1.131,1.131,0,0,1,1.131,1.131V23.429a1.131,1.131,0,0,1-.949,1.117l-30.129,4.9A1.144,1.144,0,0,1,1281.766,29.462Zm5.961-30.028-4.586,27.527,27.622-4.494V-.567Z" transform="translate(-1280.635 2.829)" fill="#231f20"/>
                                 </g>
                                 </g>
                                 <g id="Group_1737" data-name="Group 1737" transform="translate(387.697 2559.689)">
                                 <g id="Group_1728-2" data-name="Group 1728" transform="translate(1163.303 -37.902)" style={{isolation: "isolate"}}>
-                                    <path id="Path_2086-2" data-name="Path 2086" d="M1260.906,14.457l.04,49.859,49.824,45.249V-35.4H1165.8l45.239,50.009Z" transform="translate(-1163.918 37.287)" fill="url(#linear-gradient)"/>
+                                    <path id="Path_2086-2" data-name="Path 2086" d="M1260.906,14.457l.04,49.859,49.824,45.249V-35.4H1165.8l45.239,50.009Z" transform="translate(-1163.918 37.287)" fill="url(#linear-gradient-combat)"/>
                                     <path id="Path_2087-2" data-name="Path 2087" d="M1310.156,110.837a1.88,1.88,0,0,1-1.268-.49L1259.064,65.1a1.886,1.886,0,0,1-.618-1.394l-.039-47.97-47.974.145h-.006a1.883,1.883,0,0,1-1.4-.621l-45.24-50.01a1.885,1.885,0,0,1-.325-2.029,1.886,1.886,0,0,1,1.723-1.121h144.967a1.885,1.885,0,0,1,1.885,1.885V108.951a1.885,1.885,0,0,1-1.885,1.885Zm-47.94-47.971,46.053,41.826V-34.131H1169.437L1211.262,12.1l49.023-.148h.006a1.885,1.885,0,0,1,1.885,1.884Z" transform="translate(-1163.303 37.902)" fill="#231f20"/>
                                 </g>
                                 <g id="Group_1729-2" data-name="Group 1729" transform="translate(1199.598 -12.135)" style={{isolation: "isolate"}}>
-                                    <path id="Path_2088-2" data-name="Path 2088" d="M1264.217,30.2l.025,31.438,31.416,18.1V-1.236h-81.729L1232.776,30.3Z" transform="translate(-1212.043 3.121)" fill="url(#linear-gradient-2)"/>
+                                    <path id="Path_2088-2" data-name="Path 2088" d="M1264.217,30.2l.025,31.438,31.416,18.1V-1.236h-81.729L1232.776,30.3Z" transform="translate(-1212.043 3.121)" fill="url(#linear-gradient-combat-2)"/>
                                     <path id="Path_2089-2" data-name="Path 2089" d="M1295.043,81.011a1.88,1.88,0,0,1-.941-.252l-31.415-18.1a1.884,1.884,0,0,1-.944-1.632l-.024-29.548-29.551.089h-.006a1.885,1.885,0,0,1-1.618-.919L1211.7-.883a1.887,1.887,0,0,1-.022-1.9,1.886,1.886,0,0,1,1.64-.955h81.729a1.885,1.885,0,0,1,1.885,1.885V79.125a1.885,1.885,0,0,1-1.885,1.885Zm-29.531-21.075,27.645,15.928V.036h-76.52l16.592,27.758L1263.6,27.7a2.02,2.02,0,0,1,1.336.55,1.887,1.887,0,0,1,.554,1.334Z" transform="translate(-1211.429 3.735)" fill="#231f20"/>
                                 </g>
                                 <g id="Group_1730-2" data-name="Group 1730" transform="translate(1220.983 24.666)" style={{isolation: "isolate"}}>
-                                    <rect id="Rectangle_140-2" data-name="Rectangle 140" width="25.126" height="25.126" transform="translate(26.258 26.257) rotate(-180)" fill="url(#linear-gradient-3)"/>
+                                    <rect id="Rectangle_140-2" data-name="Rectangle 140" width="25.126" height="25.126" transform="translate(26.258 26.257) rotate(-180)" fill="url(#linear-gradient-combat-3)"/>
                                     <path id="Path_2090-2" data-name="Path 2090" d="M1266.044,72.451h-25.127a1.131,1.131,0,0,1-1.131-1.131V46.193a1.131,1.131,0,0,1,1.131-1.131h25.127a1.131,1.131,0,0,1,1.131,1.131V71.32A1.131,1.131,0,0,1,1266.044,72.451Zm-24-2.262h22.865V47.324h-22.865Z" transform="translate(-1239.786 -45.062)" fill="#231f20"/>
                                 </g>
                                 <g id="Group_1731-2" data-name="Group 1731" transform="translate(1251.79 -11.451)" style={{isolation: "isolate"}}>
-                                    <path id="Path_2091-2" data-name="Path 2091" d="M1282.135,28.7l30.128-4.9V-1.329h-25.126Z" transform="translate(-1281.004 2.46)" fill="url(#linear-gradient-4)"/>
+                                    <path id="Path_2091-2" data-name="Path 2091" d="M1282.135,28.7l30.128-4.9V-1.329h-25.126Z" transform="translate(-1281.004 2.46)" fill="url(#linear-gradient-combat-4)"/>
                                     <path id="Path_2092-2" data-name="Path 2092" d="M1281.766,29.462a1.132,1.132,0,0,1-1.116-1.318l5-30.028a1.131,1.131,0,0,1,1.116-.945h25.125a1.131,1.131,0,0,1,1.131,1.131V23.429a1.131,1.131,0,0,1-.949,1.117l-30.129,4.9A1.144,1.144,0,0,1,1281.766,29.462Zm5.961-30.028-4.586,27.527,27.622-4.494V-.567Z" transform="translate(-1280.635 2.829)" fill="#231f20"/>
                                 </g>
                                 </g>
                                 <g id="Group_1733-2" data-name="Group 1733" transform="translate(370.739 3234.787) rotate(90)">
                                 <g id="Group_1728-3" data-name="Group 1728" style={{isolation: "isolate"}}>
-                                    <path id="Path_2086-3" data-name="Path 2086" d="M95.1,95.109l.04-49.859L144.968,0V144.968H0L45.239,94.958Z" transform="translate(1.885 1.886)" fill="url(#linear-gradient-9)"/>
+                                    <path id="Path_2086-3" data-name="Path 2086" d="M95.1,95.109l.04-49.859L144.968,0V144.968H0L45.239,94.958Z" transform="translate(1.885 1.886)" fill="url(#linear-gradient-combat-9)"/>
                                     <path id="Path_2087-3" data-name="Path 2087" d="M146.854,0a1.88,1.88,0,0,0-1.268.49L95.762,45.74a1.886,1.886,0,0,0-.618,1.394L95.1,95.1,47.13,94.958h-.006a1.883,1.883,0,0,0-1.4.621L.487,145.589a1.885,1.885,0,0,0,1.4,3.15H146.853a1.885,1.885,0,0,0,1.885-1.885V1.885A1.885,1.885,0,0,0,146.854,0ZM98.914,47.97,144.967,6.145V144.968H6.134L47.959,98.732l49.023.148h.006A1.885,1.885,0,0,0,98.874,97Z" fill="#231f20"/>
                                 </g>
                                 <g id="Group_1729-3" data-name="Group 1729" transform="translate(36.295 38.226)" style={{isolation: "isolate"}}>
-                                    <path id="Path_2088-3" data-name="Path 2088" d="M50.288,49.538,50.314,18.1,81.729,0V80.975H0L18.847,49.443Z" transform="translate(1.885 1.885)" fill="url(#linear-gradient-10)"/>
+                                    <path id="Path_2088-3" data-name="Path 2088" d="M50.288,49.538,50.314,18.1,81.729,0V80.975H0L18.847,49.443Z" transform="translate(1.885 1.885)" fill="url(#linear-gradient-combat-10)"/>
                                     <path id="Path_2089-3" data-name="Path 2089" d="M83.614,0a1.88,1.88,0,0,0-.941.252l-31.415,18.1a1.884,1.884,0,0,0-.944,1.632L50.29,49.532l-29.551-.089h-.006a1.885,1.885,0,0,0-1.618.919L.267,81.893a1.885,1.885,0,0,0,1.618,2.852H83.614A1.885,1.885,0,0,0,85.5,82.86V1.885A1.885,1.885,0,0,0,83.614,0ZM54.084,21.075,81.729,5.147V80.975H5.209L21.8,53.217l30.368.091a2.02,2.02,0,0,0,1.336-.55,1.887,1.887,0,0,0,.554-1.334Z" fill="#231f20"/>
                                 </g>
                                 <g id="Group_1730-3" data-name="Group 1730" transform="translate(57.68 58.782)" style={{isolation: "isolate"}}>
-                                    <rect id="Rectangle_140-3" data-name="Rectangle 140" width="25.126" height="25.126" transform="translate(26.258 26.258) rotate(180)" fill="url(#linear-gradient-11)"/>
+                                    <rect id="Rectangle_140-3" data-name="Rectangle 140" width="25.126" height="25.126" transform="translate(26.258 26.258) rotate(180)" fill="url(#linear-gradient-combat-11)"/>
                                     <path id="Path_2090-3" data-name="Path 2090" d="M26.258,0H1.131A1.131,1.131,0,0,0,0,1.131V26.258a1.131,1.131,0,0,0,1.131,1.131H26.258a1.131,1.131,0,0,0,1.131-1.131V1.131A1.131,1.131,0,0,0,26.258,0Zm-24,2.262H25.127V25.126H2.262Z" fill="#231f20"/>
                                 </g>
                                 <g id="Group_1731-3" data-name="Group 1731" transform="translate(88.487 89.997)" style={{isolation: "isolate"}}>
-                                    <path id="Path_2091-3" data-name="Path 2091" d="M0,0,30.128,4.9V30.028H5Z" transform="translate(1.132 1.131)" fill="url(#linear-gradient-12)"/>
+                                    <path id="Path_2091-3" data-name="Path 2091" d="M0,0,30.128,4.9V30.028H5Z" transform="translate(1.132 1.131)" fill="url(#linear-gradient-combat-12)"/>
                                     <path id="Path_2092-3" data-name="Path 2092" d="M1.131,0A1.132,1.132,0,0,0,.015,1.318l5,30.028a1.131,1.131,0,0,0,1.116.945H31.26a1.131,1.131,0,0,0,1.131-1.131V6.033a1.131,1.131,0,0,0-.949-1.117L1.313.015A1.144,1.144,0,0,0,1.131,0ZM7.092,30.028,2.506,2.5,30.129,7V30.028Z" transform="translate(0 0)" fill="#231f20"/>
                                 </g>
                                 </g>
                                 <g id="Group_1737-2" data-name="Group 1737" transform="translate(370.739 2670.526) rotate(180)">
                                 <g id="Group_1728-4" data-name="Group 1728" style={{isolation: "isolate"}}>
-                                    <path id="Path_2086-4" data-name="Path 2086" d="M95.1,95.109l.04-49.859L144.968,0V144.968H0L45.239,94.958Z" transform="translate(1.885 1.886)" fill="url(#linear-gradient-9)"/>
+                                    <path id="Path_2086-4" data-name="Path 2086" d="M95.1,95.109l.04-49.859L144.968,0V144.968H0L45.239,94.958Z" transform="translate(1.885 1.886)" fill="url(#linear-gradient-combat-9)"/>
                                     <path id="Path_2087-4" data-name="Path 2087" d="M146.854,0a1.88,1.88,0,0,0-1.268.49L95.762,45.74a1.886,1.886,0,0,0-.618,1.394L95.1,95.1,47.13,94.958h-.006a1.883,1.883,0,0,0-1.4.621L.487,145.589a1.885,1.885,0,0,0,1.4,3.15H146.853a1.885,1.885,0,0,0,1.885-1.885V1.885A1.885,1.885,0,0,0,146.854,0ZM98.914,47.97,144.967,6.145V144.968H6.134L47.959,98.732l49.023.148h.006A1.885,1.885,0,0,0,98.874,97Z" fill="#231f20"/>
                                 </g>
                                 <g id="Group_1729-4" data-name="Group 1729" transform="translate(36.295 38.226)" style={{isolation: "isolate"}}>
-                                    <path id="Path_2088-4" data-name="Path 2088" d="M50.288,49.538,50.314,18.1,81.729,0V80.975H0L18.847,49.443Z" transform="translate(1.885 1.885)" fill="url(#linear-gradient-10)"/>
+                                    <path id="Path_2088-4" data-name="Path 2088" d="M50.288,49.538,50.314,18.1,81.729,0V80.975H0L18.847,49.443Z" transform="translate(1.885 1.885)" fill="url(#linear-gradient-combat-10)"/>
                                     <path id="Path_2089-4" data-name="Path 2089" d="M83.614,0a1.88,1.88,0,0,0-.941.252l-31.415,18.1a1.884,1.884,0,0,0-.944,1.632L50.29,49.532l-29.551-.089h-.006a1.885,1.885,0,0,0-1.618.919L.267,81.893a1.885,1.885,0,0,0,1.618,2.852H83.614A1.885,1.885,0,0,0,85.5,82.86V1.885A1.885,1.885,0,0,0,83.614,0ZM54.084,21.075,81.729,5.147V80.975H5.209L21.8,53.217l30.368.091a2.02,2.02,0,0,0,1.336-.55,1.887,1.887,0,0,0,.554-1.334Z" fill="#231f20"/>
                                 </g>
                                 <g id="Group_1730-4" data-name="Group 1730" transform="translate(57.68 58.782)" style={{isolation: "isolate"}}>
-                                    <rect id="Rectangle_140-4" data-name="Rectangle 140" width="25.126" height="25.126" transform="translate(26.258 26.258) rotate(180)" fill="url(#linear-gradient-11)"/>
+                                    <rect id="Rectangle_140-4" data-name="Rectangle 140" width="25.126" height="25.126" transform="translate(26.258 26.258) rotate(180)" fill="url(#linear-gradient-combat-11)"/>
                                     <path id="Path_2090-4" data-name="Path 2090" d="M26.258,0H1.131A1.131,1.131,0,0,0,0,1.131V26.258a1.131,1.131,0,0,0,1.131,1.131H26.258a1.131,1.131,0,0,0,1.131-1.131V1.131A1.131,1.131,0,0,0,26.258,0Zm-24,2.262H25.127V25.126H2.262Z" transform="translate(0 0)" fill="#231f20"/>
                                 </g>
                                 <g id="Group_1731-4" data-name="Group 1731" transform="translate(88.487 89.997)" style={{isolation: "isolate"}}>
-                                    <path id="Path_2091-4" data-name="Path 2091" d="M0,0,30.128,4.9V30.028H5Z" transform="translate(1.132 1.131)" fill="url(#linear-gradient-12)"/>
+                                    <path id="Path_2091-4" data-name="Path 2091" d="M0,0,30.128,4.9V30.028H5Z" transform="translate(1.132 1.131)" fill="url(#linear-gradient-combat-12)"/>
                                     <path id="Path_2092-4" data-name="Path 2092" d="M1.131,0A1.132,1.132,0,0,0,.015,1.318l5,30.028a1.131,1.131,0,0,0,1.116.945H31.26a1.131,1.131,0,0,0,1.131-1.131V6.033a1.131,1.131,0,0,0-.949-1.117L1.313.015A1.144,1.144,0,0,0,1.131,0ZM7.092,30.028,2.506,2.5,30.129,7V30.028Z" fill="#231f20"/>
                                 </g>
                                 </g>
