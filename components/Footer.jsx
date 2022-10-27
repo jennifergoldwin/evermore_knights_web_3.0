@@ -33,7 +33,7 @@ export const Footer=()=>{
               <div className="w-full px-4 mt-7 lg:w-1/3 md:w-1/3 text-center">
                 <span className="text-sm">SOCIAL</span>
                 <div className="grid grid-cols-3">
-                  <a href="https://www.facebook.com/Evermoreknights" rel="noreferrer" target="_blank"  className="btn-footer">
+                  <a href="https://www.facebook.com/EvermoreKnightsOfficial" rel="noreferrer" target="_blank"  className="btn-footer">
                     <FaFacebookF/></a>
 
                   <a href="https://twitter.com/EvermoreKnights" target="_blank" rel="noreferrer" className="btn-footer">
