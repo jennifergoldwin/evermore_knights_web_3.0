@@ -5,9 +5,7 @@
 import React from "react";
 import Script from "next/script";
 import Head from "next/head";
-import Link from "next/link";
 import { Landing } from "../components/Landing";
-import { Navbar } from "../components/Navbar";
 import { Coins } from "../components/Coins";
 import { Slider } from "../components/Slider";
 import { Title } from "../components/Title";
@@ -25,7 +23,6 @@ export default function Home() {
     "/assets/images/3.png",
     "/assets/images/4.png",
     "/assets/images/5.png",
-    // "/assets/images/6.png"
   ];
 
   const listWeapon = [
@@ -159,6 +156,7 @@ export default function Home() {
       <Head>
         <title>Evermore Knights</title>
         <link rel="icon" href="/logo-ek.ico"></link>
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
 
       {/* <Navbar /> */}
@@ -167,19 +165,19 @@ export default function Home() {
 
       <div className="bg-black flex flex-wrap flex-col justify-center">
         <div className="grid justify-center items-center m-auto grid-cols-2 lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 ">
-          <img src="/assets/images/nomina.png" />
-          <img src="/assets/images/muse.png" />
-          <img src="/assets/images/creo.png" />
-          <img src="/assets/images/binance.png" />
+          <img src="/assets/images/nomina.png" alt="nomina" />
+          <img src="/assets/images/muse.png" alt="muse" />
+          <img src="/assets/images/creo.png" alt="creo" />
+          <img src="/assets/images/binance.png" alt="binance" />
         </div>
-        <img className="-mt-4 pb-8" src="/assets/images/Arrow.png" />
+        <img className="-mt-4 pb-8" src="/assets/images/Arrow.png" alt="" />
       </div>
 
       <div className="play-to-earn-wrapper overflow-hidden ">
         <div className="py-8">
           <Title
-            title="FREE TO PLAY & PLAY TO EARN"
-            desc="NFT Assets. Turn-Based. Anime-Inspired"
+            title="FREE TO PLAY JRPG"
+            desc="Turn-Based. Anime Inspired. NFT Assets"
           />
           <div className=" mx-auto flex flex-wrap w-full play-to-earn pb-8">
             <div className="inline-flex flex-col justify-center items-center  w-full sm:w-2/5 md:w-2/5 lg:w-2/5 xl:w-2/5 cursor-pointer">
@@ -192,8 +190,7 @@ export default function Home() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <Link href="/play">
-                {/* <a> */}
+              {/* <Link href="/play">
                 <motion.svg
                   initial="rest"
                   animate="rest"
@@ -278,8 +275,7 @@ export default function Home() {
                     </g>
                   </g>
                 </motion.svg>
-                {/* </a> */}
-              </Link>
+              </Link> */}
             </div>
 
             <div className="inline-flex flex-col justify-center items-center w-full sm:w-3/5 md:w-3/5 lg:w-3/5 xl:w-3/5 ">
