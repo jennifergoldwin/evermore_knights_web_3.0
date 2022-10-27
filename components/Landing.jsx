@@ -55,12 +55,13 @@ export const Landing = () => {
             <div className="flex flex-wrap">
                 <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 ">
                     <div className='overflow-hidden'>
-                        <img src="/assets/images/CHARACTERS.png"/>
+                        <img src="/assets/images/CHARACTERS.png" alt='char'/>
                     </div>
                 </div>
                 <div className="flex flex-col justify-center items-center p-8  w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 z-10">
-                    <img src="/assets/images/logo-ek.png"/>
-                    <h1 className='text-white text-3xl mf:text-3xl mdf:text-2xl md:text-3xl lf:text-3xl'>JOIN NOW</h1>
+                    <img src="/assets/images/logo-ek.png" alt ="logo_evermore"/>
+                    <h1 className='text-white text-2xl mf:text-2xl mdf:text-xl md:text-2xl lf:text-2xl'>PRE-REGISTRATION HAS ENDED</h1>
+                    <span className='text-3xl mf:text-3xl mdf:text-2xl md:text-3xl lf:text-3xl text-center pt-1 pb-3' style={{color: '#E1C95D', fontWeight: '700'}}>Thank you for participating!</span>
                     <div className='m-4 w-4/5 mf:w-3/5 md:w-3/5 lf:w-2/5 '>
                       <a href='https://creoengine.com/ekpre-registration' target="_blank" rel="noreferrer" className='cursor-pointer'>
                         <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"   viewBox="0 0 388.067 134.939">
@@ -157,7 +158,7 @@ export const Landing = () => {
                                   </g>
                                 </g>
                               </g>
-                              <text id="PRE-REGISTER" transform="translate(753.444 850.432)" fill="#fff" fontSize="35" fontWeight="700"><tspan x="57.146" y="43" xmlSpace="preserve">PRE-REGISTER</tspan></text>
+                              <text id="PRE-REGISTER" transform="translate(728.444 850.432)" fill="#fff" fontSize="35" fontWeight="700"><tspan x="57.146" y="43" xmlSpace="preserve">FIND OUT MORE!</tspan></text>
                             </g>
                           </g>
                         </svg>

@@ -91,17 +91,6 @@ export const Navbar = () => {
             }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
             <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
 
-                <a href="https://creoengine.com/ekpre-registration" target="_blank" rel="noreferrer" onClick={()=>handleActiveLink(0)} className={`${activeLink[0].status ? 'text-active-link' : 'text-white'} nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center`}>
-                  <span>PRE-REGISTER</span>
-                </a>
-
-
-              {/* <Link href="/play">
-                <a onClick={()=>handleActiveLink(1)} className={`${activeLink[1].status ? 'text-active-link' : 'text-white'} nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center`}>
-                  <span>PLAY DEMO</span>
-                </a>
-              </Link> */}
-              
               <a onClick={()=>handleActiveLink(2)} href="https://evermoreknights.gitbook.io/lores/" target="_blank" rel="noreferrer" className={`${activeLink[2].status ? 'text-active-link' : 'text-white'} nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center`}>
                 <span>BLOG</span>
               </a>
@@ -109,23 +98,8 @@ export const Navbar = () => {
               <a onClick={()=>handleActiveLink(3)} href="https://tny.sh/EvermoreKnightsWhitepaper" target="_blank" rel="noreferrer" className={`${activeLink[3].status ? 'text-active-link' : 'text-white'} nav-link lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center`}>
                 <span>WHITEPAPER</span>
               </a>
-
-              {/* <a title="Coming soon" className=' lg:inline-flex lg:w-auto w-full py-2 rounded  items-center justify-center cursor-pointer'>
-                <motion.svg initial="rest" animate="rest" whileHover="play" whileTap="play" xmlns="http://www.w3.org/2000/svg" width="211.282"  viewBox="0 0 281.282 50.102">
-                  <g id="Component_17_2" data-name="Component 17 – 2" transform="translate(0.641 0.5)">
-                    <g id="Group_1707" data-name="Group 1707" transform="translate(-222.43 120.198)">
-                      <motion.path variants={hover_button_border} id="Path_2052" data-name="Path 2052" d="M241.475-120.2H480.04l15.694,24.551L480.04-71.1H241.475L225.781-95.647Z" transform="translate(1.672)" fill="none" stroke="#fff" strokeMiterlimit="10" strokeWidth="2" fillRule="evenodd"/>
-                      <motion.path variants={hover_button_border} id="Path_2053" data-name="Path 2053" d="M245.148-117.4H479.306l17.668,26.912,5.455-6.6-5.455-6.994-17.263,27.4H245.148l-17.263-27.4-5.455,6.994,5.455,6.6Z" transform="translate(0 1.396)" fill="none" stroke="#fff" strokeMiterlimit="10" strokeWidth="1" fillRule="evenodd"/>
-                    </g>
-                    <motion.text variants={hover_button_text} id="CONNECT_WALLET" data-name="CONNECT WALLET" transform="translate(137 31.551)" fill="#fff" fontSize="20"><tspan x="-96.764" y="0">CONNECT WALLET</tspan></motion.text>
-                  </g>
-                </motion.svg>
-              </a> */}
-              
             </div>
           </div>
-       
-        
       </nav>
     </div>
       
